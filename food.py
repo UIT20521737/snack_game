@@ -35,7 +35,7 @@ class Food(Point):
                 cls.all_foods = [item for item in cls.all_foods if item != food]
                 return True
         return False
-    
+
 if __name__ == "__main__":
     a = Food()
     print(f"{a}")
